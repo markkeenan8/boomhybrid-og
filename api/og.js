@@ -76,6 +76,7 @@ export default async function handler(req) {
             color: '#ffffff',
             letterSpacing: 1.5,
             textAlign: 'center',
+            textShadow: '0 2px 10px rgba(0,0,0,0.9)',
             marginBottom: lineGap,
           },
           line
@@ -103,8 +104,6 @@ export default async function handler(req) {
           alignItems: 'center',
           maxWidth: 800,
           padding: '48px 56px',
-          backgroundColor: 'rgba(0,0,0,0.45)',
-          borderRadius: 6,
         },
         [
           h(
@@ -117,6 +116,7 @@ export default async function handler(req) {
               color: GREEN,
               letterSpacing: 6,
               textAlign: 'center',
+              textShadow: '0 2px 10px rgba(0,0,0,0.9)',
               marginBottom: 14,
             },
             title
